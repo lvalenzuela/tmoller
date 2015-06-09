@@ -448,7 +448,6 @@ h4.widgettitle {
 	padding: 0 20px;
 	padding: 0 1.25rem;
 	line-height: 1.5;
-	/*background-color: rgba(0,0,0,0.5);*/
 }
 
 .home #inner {
@@ -548,7 +547,6 @@ h4.widgettitle {
 }
 /**/
 
-
 .full-width-content #content-sidebar-wrap {
 	width: 60%;
 	background-color: rgba(255,255,255,0.8);
@@ -556,12 +554,10 @@ h4.widgettitle {
 	margin-top: 5.5em;
 }
 
-
 .full-width-content #content{
 	width: 75%;
 	margin-left: 12.5%;
 }
-
 
 .footer-widgets-1,
 .footer-widgets-2,
@@ -592,7 +588,7 @@ h4.widgettitle {
 /* 04c - Header ----------- */
 
 #header {
-	/*min-height: 70px;*/
+	min-height: 64px;
 	overflow: hidden;
 /*	background-color: rgba(255, 255, 255, .8);
 	padding-bottom: 32px;
@@ -968,7 +964,7 @@ p.pages,
 
 .genesis-nav-menu > li .sub-menu li a{
 	display: block;
-	padding: 3px 6px;
+	padding: 2px 0px 2px 18px;
 }
 
 .genesis-nav-menu .sub-menu li {
@@ -978,32 +974,34 @@ p.pages,
 }
 
 /*páginas con fondo blanco*/
-
-
-.white-menu #header,
+.page-parent #header,
 .sidebar-content #header,
 .content-sidebar #header,
 .content-sidebar-sidebar #header{
-	background-color: rgba(255,255,255,0.9);
+	background-color: rgba(255,255,255,0.8);
 }
 
-
-.white-menu .sub-menu,
+.page-parent .sub-menu,
 .sidebar-content .sub-menu,
 .content-sidebar .sub-menu,
 .content-sidebar-sidebar .sub-menu {
 	background-color: rgba(255,255,255,0.9) !important;
 }
 
-
-.white-menu .sub-menu li,
+.page-parent .sub-menu li,
 .sidebar-content .sub-menu li,
 .content-sidebar .sub-menu li,
 .content-sidebar-sidebar .sub-menu li {
-	border-top: 1px dotted #484848;
+	border-top: none; /*1px dotted #484848;*/
 	text-transform: none;
 }
 
+.page-parent .sub-menu li a:hover,
+.sidebar-content .sub-menu li a:hover,
+.content-sidebar .sub-menu li a:hover,
+.content-sidebar-sidebar .sub-menu li a:hover {
+	color: #303030;
+}
 
 /* 05a - Primary Navigation Extras ----------- */
 
@@ -1927,6 +1925,7 @@ p.wp-caption-text {
 	background: url(images/TeresaMoller_media-footer.jpg) bottom center no-repeat;
 }
 
+
 /** Infinite Scroll Custom Style */
 #infscr-loading {
 	text-align: center;
@@ -2052,7 +2051,7 @@ float: right;
 }
 
 .single-portfolio .entry {
-	border-bottom: 1px solid white;
+	/*border-bottom: 1px solid white;*/
 	padding-bottom: 31px;
 	margin-bottom: 0;
 }
@@ -2144,4 +2143,3 @@ html.loading-portfolio {
 	border: none;
 	margin: 10px 10px 5px 0px;
 }
-
