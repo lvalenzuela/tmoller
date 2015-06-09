@@ -448,6 +448,7 @@ h4.widgettitle {
 	padding: 0 20px;
 	padding: 0 1.25rem;
 	line-height: 1.5;
+	/*background-color: rgba(0,0,0,0.5);*/
 }
 
 .home #inner {
@@ -547,16 +548,20 @@ h4.widgettitle {
 }
 /**/
 
+
 .full-width-content #content-sidebar-wrap {
-	width: 55.5%;
-	background-color: rgba(255,255,255,0.5);
-	text-align: justify;
+	width: 60%;
+	background-color: rgba(255,255,255,0.8);
+	text-align: left;
+	margin-top: 5.5em;
 }
+
 
 .full-width-content #content{
 	width: 75%;
 	margin-left: 12.5%;
 }
+
 
 .footer-widgets-1,
 .footer-widgets-2,
@@ -587,7 +592,7 @@ h4.widgettitle {
 /* 04c - Header ----------- */
 
 #header {
-	min-height: 64px;
+	/*min-height: 70px;*/
 	overflow: hidden;
 /*	background-color: rgba(255, 255, 255, .8);
 	padding-bottom: 32px;
@@ -973,21 +978,25 @@ p.pages,
 }
 
 /*páginas con fondo blanco*/
-.page-parent #header,
+
+
+.white-menu #header,
 .sidebar-content #header,
 .content-sidebar #header,
 .content-sidebar-sidebar #header{
-	background-color: rgba(255,255,255,0.8);
+	background-color: rgba(255,255,255,0.9);
 }
 
-.page-parent .sub-menu,
+
+.white-menu .sub-menu,
 .sidebar-content .sub-menu,
 .content-sidebar .sub-menu,
 .content-sidebar-sidebar .sub-menu {
-	background-color: rgba(255,255,255,0.8) !important;
+	background-color: rgba(255,255,255,0.9) !important;
 }
 
-.page-parent .sub-menu li,
+
+.white-menu .sub-menu li,
 .sidebar-content .sub-menu li,
 .content-sidebar .sub-menu li,
 .content-sidebar-sidebar .sub-menu li {
@@ -1870,13 +1879,34 @@ p.wp-caption-text {
 	background: url(images/TeresaMoller_studio-footer.jpg) bottom center no-repeat;
 }
 
-.team {
+.landscape {
 	background: url(images/TeresaMoller_team-header.jpg) top center no-repeat;
 }
 
-.team #footer {
+.landscape #footer {
 	background: url(images/TeresaMoller_team-footer.jpg) bottom center no-repeat;
 }
+
+
+.chile-work {
+	background: url(images/TeresaMoller_studio-header.jpg) top center no-repeat;
+}
+
+.competition-work {
+	background: url(images/TeresaMoller_studio-header.jpg) top center no-repeat;
+}
+
+.international-work {
+	background: url(images/TeresaMoller_studio-header.jpg) top center no-repeat;
+}
+.contact {
+	background: url(images/TeresaMoller_studio-header.jpg) top center no-repeat;
+}
+
+.mariposa {
+	background: url(images/TeresaMoller_studio-header.jpg) top center no-repeat;
+}
+
 
 .tag  #footer,
 .category-blog  #footer,
@@ -1885,11 +1915,15 @@ p.wp-caption-text {
 	background: url(images/TeresaMoller_blog-footer.jpg) bottom center no-repeat;
 }
 
+
+.category-awards  #footer,
 .category-publications  #footer,
-.category-conferences  #footer,
 .category-lectures #footer,
+.category-news #footer,
+.category-premios #footer,
 .category-publicaciones #footer,
-.category-conferencias #footer {
+.category-conferencias #footer,
+.category-noticias #footer {
 	background: url(images/TeresaMoller_media-footer.jpg) bottom center no-repeat;
 }
 
@@ -2110,3 +2144,4 @@ html.loading-portfolio {
 	border: none;
 	margin: 10px 10px 5px 0px;
 }
+
