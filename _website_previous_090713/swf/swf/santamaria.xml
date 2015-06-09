@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../edificios/santamaria/1.jpg"/>
+		<photo path="../edificios/santamaria/2.jpg"/>
+		<photo path="../edificios/santamaria/3.jpg"/>
+		<photo path="../edificios/santamaria/4.jpg"/>
+		<photo path="../edificios/santamaria/5.jpg"/>
+	</photos>
+
+</jpgrotator>

@@ -1,0 +1,45 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+.texto {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #9C9A9A;
+}
+.titulos {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #F56C2B;
+}
+input{
+	letter-spacing: 10%;
+	color:#9C9A9A;
+	margin:0pt;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1pt #9C9A9A;
+	background-color: #FFFFFF;
+	}
+	
+textarea{
+	letter-spacing: 20%;
+	color:#9C9A9A;
+	margin:0pt;
+	font-size: 11px;
+	font-family: Arial, Helvetica, sans-serif;
+	border:solid 1pt #9C9A9A;
+	background-color: #FFFFFF;
+}
+a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+	color: #9C9A9A;
+	line-height: normal;
+	text-decoration: none;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../edificios/isidora3000/1.jpg"/>
+		<photo path="../edificios/isidora3000/2.jpg"/>
+		<photo path="../edificios/isidora3000/3.jpg"/>
+		<photo path="../edificios/isidora3000/4.jpg"/>
+		<photo path="../edificios/isidora3000/5.jpg"/>
+	</photos>
+
+</jpgrotator>

@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../enproceso/azul/1.jpg"/>
+		<photo path="../enproceso/azul/2.jpg"/>
+		<photo path="../enproceso/azul/3.jpg"/>
+		<photo path="../enproceso/azul/4.jpg"/>
+		<photo path="../enproceso/azul/5.jpg"/>
+	</photos>
+
+</jpgrotator>

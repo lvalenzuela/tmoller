@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../casas/sanrafael/1.jpg"/>
+		<photo path="../casas/sanrafael/2.jpg"/>
+		<photo path="../casas/sanrafael/3.jpg"/>
+		<photo path="../casas/sanrafael/4.jpg"/>
+		<photo path="../casas/sanrafael/5.jpg"/>
+		<photo path="../casas/sanrafael/6.jpg"/>
+		<photo path="../casas/sanrafael/7.jpg"/>
+	</photos>
+
+</jpgrotator>

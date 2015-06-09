@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../enproceso/puntaballena/1.jpg"/>
+		<photo path="../enproceso/puntaballena/2.jpg"/>
+		<photo path="../enproceso/puntaballena/3.jpg"/>
+		<photo path="../enproceso/puntaballena/4.jpg"/>
+		<photo path="../enproceso/puntaballena/5.jpg"/>
+	</photos>
+
+</jpgrotator>

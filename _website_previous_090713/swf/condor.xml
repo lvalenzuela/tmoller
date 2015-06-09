@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../casas/condor/1.jpg"/>
+		<photo path="../casas/condor/2.jpg"/>
+		<photo path="../casas/condor/3.jpg"/>
+		<photo path="../casas/condor/4.jpg"/>
+		<photo path="../casas/condor/5.jpg"/>
+	</photos>
+
+</jpgrotator>

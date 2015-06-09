@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../otros/clubdejardines/1.jpg"/>
+		<photo path="../otros/clubdejardines/2.jpg"/>
+		<photo path="../otros/clubdejardines/3.jpg"/>
+		<photo path="../otros/clubdejardines/4.jpg"/>
+	</photos>
+
+</jpgrotator>

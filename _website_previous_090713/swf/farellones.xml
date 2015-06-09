@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<jpgrotator>
+
+	<parameters>
+		<rotatetime>3</rotatetime>
+		<randomplay>false</randomplay>
+		<shownavigation>true</shownavigation>
+		<transition>fade</transition>
+	</parameters>
+
+	<photos>
+		<photo path="../casas/farellones/1.jpg"/>
+		<photo path="../casas/farellones/2.jpg"/>
+		<photo path="../casas/farellones/3.jpg"/>
+		<photo path="../casas/farellones/4.jpg"/>
+		<photo path="../casas/farellones/5.jpg"/>
+	</photos>
+
+</jpgrotator>
